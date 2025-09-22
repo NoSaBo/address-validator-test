@@ -30,6 +30,9 @@ Response: `{ input, status, normalized, corrections }`
 
 - `status`: `valid` | `corrected` | `unverifiable`
 
+Example:
+ - `curl -X POST http://localhost:3000/validate-address -H "Content-Type: application/json" -d '{"address":"1600 Amphitheatre Parkway, Mountain Viw, CA 94043"}'`
+
 <br><br>
 
 ## Thought process
@@ -83,4 +86,3 @@ Response: `{ input, status, normalized, corrections }`
 - I used some help from copilot and chatGPT to create a boilerplate and add changes to it.
 - I used AI to create a group of test cases and a small script to test it.
 - I was playing with a reverse way to recreate the project (it didn't go that well, but works great as summary). If curious, you can check it at [Prompt.md](./Prompt.md)
-
