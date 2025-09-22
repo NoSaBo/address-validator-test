@@ -82,5 +82,5 @@ Response: `{ input, status, normalized, corrections }`
   - `I'm creating a project with express and javascript, that validates US addresses, give me a list of robust and popular libraries that can help me manage matching names and typos for this goal`
 - I used some help from copilot and chatGPT to create a boilerplate and add changes to it.
 - I used AI to create a group of test cases and a small script to test it.
-- I was playing with a reverse way to recreate the project (it didn't go that well, but works great as summary). If curious, you can check it at [PROMPT.md](./PROMPT.md)
+- I was playing with a reverse way to recreate the project (it didn't go that well, but works great as summary). If curious, you can check it at [PROMPT.md](./Prompt.md)
 
