@@ -30,13 +30,15 @@ Response: `{ input, status, normalized, corrections }`
 
 - `status`: `valid` | `corrected` | `unverifiable`
 
+<br><br>
+
 ## Thought process
 
-### Problem
+#### Problem
 
 - We need to create an API that validates and standardizes property addresses (street, number, city, state, zip code)
 
-### Constraints & Assumptions
+#### Constraints & Assumptions
 
 - We don't have the details that can help us define a suited solution, like:
 
@@ -81,3 +83,4 @@ Response: `{ input, status, normalized, corrections }`
 - I used some help from copilot and chatGPT to create a boilerplate and add changes to it.
 - I used AI to create a group of test cases and a small script to test it.
 - I was playing with a reverse way to recreate the project (it didn't go that well, but works great as summary). If curious, you can check it at [PROMPT.md](../PROMPT.md)
+
